@@ -8,9 +8,11 @@
 Console.Clear();
 Console.WriteLine("Введите число a =");
 int a = Convert.ToInt32(Console.ReadLine());
-if ( ( a % 2 ) == 0); 
+if ( ( a % 2 ) != 0)
 {
-    Console.WriteLine("Число четное?  ДА!");
-}
     Console.WriteLine("Число четное?  НЕТ!");
+}
+else Console.WriteLine("Число четное?  ДА!");
+
+    
 
