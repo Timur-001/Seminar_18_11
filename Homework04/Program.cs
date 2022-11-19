@@ -7,16 +7,16 @@
 Console.Clear();
 Console.WriteLine("Введите число N =");
 int N = Convert.ToInt32(Console.ReadLine());
-int count = 0;
-while (( count  ) <= N) { 
+int count = 1;
+while (( count ) <= N) { 
     if ((count % 2 ) == 0 )
     {
-        count++;
-        Console.WriteLine(count + ", ");     
+        Console.WriteLine(count);
+        count = count + 1;     
     }
     else
      {
-        count++;
+        count = count +1;
      }
 }
 
