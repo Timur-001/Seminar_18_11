@@ -11,7 +11,7 @@ int count = 1;
 while (( count ) <= N) { 
     if ((count % 2 ) == 0 )
     {
-        Console.WriteLine(count);
+        Console.Write("{0} ", count);
         count = count + 1;     
     }
     else
