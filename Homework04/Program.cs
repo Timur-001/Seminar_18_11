@@ -8,8 +8,17 @@ Console.Clear();
 Console.WriteLine("Введите число N =");
 int N = Convert.ToInt32(Console.ReadLine());
 int count = 0;
-if ( ( N + count ) == 9)
-{
-    Console.WriteLine("Число четное?  НЕТ!");
+while (( count  ) <= N) { 
+    if ((count % 2 ) == 0 )
+    {
+        count++;
+        Console.WriteLine(count + ", ");     
+    }
+    else
+     {
+        count++;
+     }
 }
-else Console.WriteLine("Число четное?  ДА!");
+
+
+
