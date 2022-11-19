@@ -6,5 +6,11 @@
 // 7 -> нет
 
 Console.Clear();
-Console.WriteLine("Введите число");
-Console.WriteLine("a = ");
+Console.WriteLine("Введите число a =");
+int a = Convert.ToInt32(Console.ReadLine());
+if ( ( a % 2 ) == 0); 
+{
+    Console.WriteLine("Число четное?  ДА!");
+}
+    Console.WriteLine("Число четное?  НЕТ!");
+
